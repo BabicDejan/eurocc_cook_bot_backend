@@ -1,0 +1,21 @@
+# OpenAI
+OPENAI_API_KEY=#
+OPENAI_BASE_URL=https://api.openai.com/v1
+OPENAI_MODEL_RESPONSES=gpt-4o
+OPENAI_EMBED_MODEL=text-embedding-3-large
+
+# Azure Search
+AZURE_SEARCH_ENDPOINT=https://<search-name>.search.windows.net
+AZURE_SEARCH_API_KEY=<admin-or-query-key>
+AZURE_SEARCH_FAQ_INDEX=search_name
+AZURE_SEARCH_NEWS_INDEX=news_name
+
+# Azure Storage
+AZURE_BLOB_ACCOUNT_URL=https://<storage>.blob.core.windows.net
+AZURE_BLOB_SAS=<sas-token-or-managed-identity>
+AZURE_BLOB_CONTAINER=container_name
+
+# Kontrola ponašanja
+ANSWER_TEMPERATURE=0.1
+MAX_CHUNKS=12
+
